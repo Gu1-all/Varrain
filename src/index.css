@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Eleanora;
+    src: url("../public/assets/fonts/eleanora-regular.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+    --font-eleanora: "Eleanora", "sans-serif";
+}
+
+* {
+    text-decoration: none;
+}
+
