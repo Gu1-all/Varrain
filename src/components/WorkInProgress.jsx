@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from "react-router"
 
 const WorkInProgress = () => {
@@ -38,7 +38,7 @@ const WorkInProgress = () => {
 
   return (
     <div className='bg-black h-dvh w-dvw flex flex-col justify-center items-center gap-8'>
-      <h1 className='text-white font-eleanora text-4xl w-[32rem] text-center'>{texts[currentIndex]}</h1>
+      <h1 className='text-white font-eleanora text-4xl w-[32rem] text-center max-sm:text-2xl max-sm:w-[16rem]'>{texts[currentIndex]}</h1>
       {showButton && <Link to={"/"} className='p-4 font-eleanora text-2xl bg-white rounded-md cursor-pointer hover:bg-[#2E2E2E] hover:text-white'>Sair do Vazio</Link>}
     </div>
   );

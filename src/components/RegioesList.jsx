@@ -11,7 +11,7 @@ const RegioesList = () => {
   
   return (
     <div  className="grid grid-cols-1 place-items-center w-dvw mb-25">
-      <ul className="grid grid-cols-4 gap-y-10 w-[90%]">
+      <ul className="grid grid-cols-4 gap-y-10 justify-items-center w-[95%] max-sm:grid-cols-1">
         {regioesitems.map((item) => (
           <li key={item.id}>
             <Link to={`/regioes/${item.id}`}><RegioesItem cover={item.cover}/></Link>

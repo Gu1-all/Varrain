@@ -12,7 +12,7 @@ const CampeoesList = () => {
   
   return (
     <div  className="grid grid-cols-1 place-items-center gap-15 mb-25">
-      <ul className="grid grid-cols-5 gap-y-10 w-[90%]">
+      <ul className="grid grid-cols-5 gap-y-5 justify-items-center w-[90%] max-sm:grid-cols-1">
         {regioesitems.map((item) => (
           <li key={item.id}>
             <Link to={`/campeoes/${item.id}`}><CampeoesItem cover={item.cover} /></Link>

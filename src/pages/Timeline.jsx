@@ -4,13 +4,13 @@ import About from "../components/About";
 
 const Timeline = () => {
   return (
-    <div className='text-white text-3xl font-bold underline bg-[#2E2E2E]'>
+    <div className='text-white text-3xl font-bold bg-[#2E2E2E]'>
         <Navbar/>
-        <div className="flex flex-col gap-15 justify-center items-start h-dvh p-20 text-xl">
+        <div className="flex flex-col gap-15 justify-center items-start h-dvh p-20 text-xl max-sm:p-5">
           <h1 className="font-eleanora font-bold text-4xl">
             A fibra da criação
           </h1>
-          <p className="text-base text-justify w-[35rem]">
+          <p className="text-justify w-[35rem] max-sm:w-[18rem] max-sm:text-sm">
             No princípio, não havia tempo, nem forma, apenas o vazio absoluto. uma 
             consciência sem nome — que veio a ser chamada apenas de o Tecelão —, 
             com suas mão puxou fios de luz e sombra e começou a tecer o universo.
@@ -20,11 +20,11 @@ const Timeline = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-15 justify-center items-end h-dvh p-20 text-xl">
+        <div className="flex flex-col gap-15 justify-center items-end h-dvh p-20 text-xl max-sm:p-5">
           <h1 className="font-eleanora font-bold text-4xl">
             Ascensão
           </h1>
-          <p className="text-base text-justify w-[35rem]">
+          <p className="text-base text-justify w-[35rem] max-sm:w-[18rem] max-sm:text-sm">
             Milhares de ciclos depois, surgiram os humanos, criaturas curiosas e frágeis, 
             porém dotadas de conhecimento. Ergueram cidades, rasgaram os céus com maquinas, 
             e os mares com sondas. Era a era dos dados, da 
@@ -34,11 +34,11 @@ const Timeline = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-15 justify-center items-start h-dvh p-20 text-xl">
+        <div className="flex flex-col gap-15 justify-center items-start h-dvh p-20 text-xl max-sm:p-5">
           <h1 className="font-eleanora font-bold text-4xl">
             Rasgando fibras
           </h1>
-          <p className="text-base text-justify w-[35rem]">
+          <p className="text-justify w-[35rem] max-sm:w-[18rem] max-sm:text-sm">
             Vieram os séculos de desequilíbrio: os mares ferviam com o refluxo dos erros humanos, 
             as florestas murchavam sob céus envenenados, e Varrain rangia, como se protestasse. 
             Então, como punição ou acaso, uma chuva de meteoros rasgou o firmamento, trazendo consigo 
@@ -49,11 +49,11 @@ const Timeline = () => {
         </div>
 
 
-        <div className="flex flex-col gap-15 justify-center items-end h-dvh p-20 text-xl">
+        <div className="flex flex-col gap-15 justify-center items-end h-dvh p-20 text-xl max-sm:p-5">
           <h1 className="font-eleanora font-bold text-4xl">
             Starlight
           </h1>
-          <p className="text-base text-justify w-[35rem]">
+          <p className="text-base text-justify w-[35rem] max-sm:w-[18rem] max-sm:text-sm">
             Antevendo o fim, alguns escaparam — os escolhidos, os preparados, os afortunados. Subiram 
             aos céus em naves silenciosas, adormecendo em cápsulas de criogenia enquanto sondas robóticas 
             observavam Varrain de longe, esperando o dia em que a vida fosse possível novamente. No vácuo 
@@ -62,11 +62,11 @@ const Timeline = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-15 justify-center items-start h-dvh p-20 text-xl">
+        <div className="flex flex-col gap-15 justify-center items-start h-dvh p-20 text-xl max-sm:p-5">
           <h1 className="font-eleanora font-bold text-4xl">
             A queda
           </h1>
-          <p className="text-base text-justify w-[35rem]">
+          <p className="text-justify w-[35rem] max-sm:w-[18rem] max-sm:text-sm">
             Uma colisão fatídica entre a nave humana adormecida e uma nave alienígena de origem indecifrável 
             selou o destino de ambos os povos. As carcaças das naves despencaram na superfície agora irreconhecível
               de Varrain, espalhando tecnologia, corpos e memórias em uma colisão de culturas e eras. O impacto 
@@ -75,11 +75,11 @@ const Timeline = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-15 justify-center items-end h-dvh p-20 text-xl">
+        <div className="flex flex-col gap-15 justify-center items-end h-dvh p-20 text-xl max-sm:p-5">
           <h1 className="font-eleanora font-bold text-4xl">
             Sperare
           </h1>
-          <p className="text-base text-justify w-[35rem]">
+          <p className="text-base text-justify w-[35rem] max-sm:w-[18rem] max-sm:text-sm">
             A nova Varrain não era mais o mundo que conheciam. As leis da física se contorciam como fumaça ao vento, 
             o tempo escorria como líquido entre as árvores que cresciam de cristais, e o céu mudava de cor com os pensamentos. 
             Humanos e alienígenas, unidos pela necessidade, reconstruíram sob essas novas regras, criando uma sociedade híbrida 
