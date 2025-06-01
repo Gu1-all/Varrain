@@ -17,7 +17,7 @@ const Navbar = () => {
             <li className="hover:scale-125 transition-all"><Link to={"/mapa"} className="font-eleanora text-white m-4 text-3xl cursor-pointer hover:scale-125 transition-all max-sm:hidden">Mapa</Link></li>
           </ul>
         </div>
-        <Link to={"/"} className="font-eleanora text-white m-4 text-4xl cursor-pointer hover:scale-125 transition-all max-sm:hidden">Varrain</Link>
+        <Link to={"/Varrain"} className="font-eleanora text-white m-4 text-4xl cursor-pointer hover:scale-125 transition-all max-sm:hidden">Varrain</Link>
         <div>
           <ul className="flex">
             <li className="hover:scale-125 transition-all"><Link to={"/galeria"} className="font-eleanora text-white m-4 text-3xl cursor-pointer max-sm:hidden">Galeria</Link></li>

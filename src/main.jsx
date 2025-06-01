@@ -10,7 +10,7 @@ import Campeoes from './pages/Campeoes.jsx'
 import WorkInProgress from './components/WorkInProgress.jsx'
 
 const router = createBrowserRouter([
-  {path:"/", element: <App/>},
+  {path:"/Varrain", element: <App/>},
   {path:"/universo", element: <WorkInProgress/>},
   {path:"/campeoes", element: <Campeoes/>},
   {path:"/regioes", element: <Regioes/>},
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   {path:"/ajude", element: <WorkInProgress/>},
   {path:"/conte", element: <WorkInProgress/>},
   {path:"/suporte", element: <WorkInProgress/>},
-  {path:"*", element: <WorkInProgress/>},
+  {path:"/*", element: <WorkInProgress/>},
 ]);
 
 createRoot(document.getElementById('root')).render(

@@ -1,4 +1,4 @@
-import { imgHero } from "../constants"
+import imgHero from '../../public/assets/imgs/rai.webp';
 
 const Hero = () => {
   return (
