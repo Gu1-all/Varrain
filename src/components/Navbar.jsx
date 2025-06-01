@@ -31,7 +31,7 @@ const Navbar = () => {
 
       <div className={`absolute z-1 xl:hidden md:hidden bg-[#2E2E2E] h-dvh w-dvw transform transition-transform ${isMenuOpen ? "opacity-85" : "opacity-0"}`}>
           <ul className="flex flex-col justify-center items-center gap-4 m-10">
-            <li><Link to={"/"} className="font-eleanora text-white text-4xl cursor-pointer ">Varrain</Link></li>
+            <li><Link to={"/Varrain"} className="font-eleanora text-white text-4xl cursor-pointer ">Varrain</Link></li>
             <li className="hover:scale-125 transition-all"><Link to={"/universo"} className="font-eleanora text-white text-3xl cursor-pointer  ">Universo</Link></li>
             <li className="hover:scale-125 transition-all"><Link to={"/campeoes"} className="font-eleanora text-white  text-3xl cursor-pointer  ">Campeões</Link></li>
             <li className="hover:scale-125 transition-all"><Link to={"/mapa"} className="font-eleanora text-white text-3xl cursor-pointer  ">Mapa</Link></li>
